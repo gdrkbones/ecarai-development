@@ -6,7 +6,7 @@ import { createClient } from "contentful";
 export const getStaticProps = async (context) => {
   const client = createClient({
     space: process.env.CONTENTFUL_SPACE_ID,
-    accessToken: CONTENTFUL_ACCESS_TOKEN,
+    accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
   });
 
   let plants = await client.getEntries({
