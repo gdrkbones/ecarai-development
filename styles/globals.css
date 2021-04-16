@@ -14,3 +14,11 @@ a {
 * {
   box-sizing: border-box;
 }
+
+:root {
+  --color-primary: #749d38;
+  --color-primary-light: #9ad14b;
+  --color-secondary: #61389d;
+  --color-secondary-light: #824bd1;
+  --spacing-padding-section: 0 6.7% 0 6.7%;
+}
