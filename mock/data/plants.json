@@ -1,0 +1,10 @@
+{
+  "items": [
+    {
+      "fields": {
+        "name": "asparagus",
+        "icon": { "fields": { "file": { "url": "/vercel.svg" } } }
+      }
+    }
+  ]
+}
