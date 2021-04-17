@@ -15,7 +15,6 @@ export const getStaticProps = async (context) => {
   let plants;
   let plantsInfo;
   if (process.env.LOCAL_DEVELOPMENT) {
-    console.log(process.env.LOCAL_DEVELOPMENT);
     plantsInfo = require("../mock/data/plants.json");
     plants = plantsInfo.items.map((item) => ({
       name: item.fields.name,
